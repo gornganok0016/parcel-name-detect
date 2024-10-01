@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['name']
+
+roboflow:
+  workspace: parcelnamedetection
+  project: parcel-name-detection
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/parcelnamedetection/parcel-name-detection/dataset/3
